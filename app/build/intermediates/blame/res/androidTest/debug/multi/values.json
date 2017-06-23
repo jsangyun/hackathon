@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/RYAN/Desktop/new/hackathon/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Hackathon\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/RYAN/.android/build-cache/e374757df59f21ff04b0f8333b300c049945d2af/output/res/values/values.xml",
+                    "file": "C:\\Users\\JSY\\.android\\build-cache\\f5885e7c26977aeee370b2b54e9978cb9b7ffb1a\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

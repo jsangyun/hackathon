@@ -18,7 +18,7 @@ public class DataBase {
                         +_ID+" integer primary key autoincrement, "
                         +NAME+" text not null , "
                         +COUNTRY+" text not null , "
-                        +DISLIKE+" int not null , "
-                        +LIKE+" int not null );";
+                        +LIKE+" int not null , "
+                        +DISLIKE+" int not null );";
     }
 }
