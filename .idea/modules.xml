@@ -3,16 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hackathon.iml" filepath="$PROJECT_DIR$/Hackathon.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/SourceTree.iml" filepath="$PROJECT_DIR$/SourceTree.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/Project.iml" filepath="$PROJECT_DIR$/Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-<<<<<<< HEAD
-=======
->>>>>>> b34ffa73dbbeed7bc888573d95953be18864052f
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
->>>>>>> f93e2df45f99b4f31d6a9fffc443303d0018882b
     </modules>
   </component>
 </project>
