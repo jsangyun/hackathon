@@ -2,8 +2,12 @@ package com.example.jsy.hackathon;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.BaseExpandableListAdapter;
+import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.ExpandableListView.OnChildClickListener;
+import android.widget.ExpandableListView.OnGroupClickListener;
+import android.widget.ExpandableListView.OnGroupCollapseListener;
+import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -14,54 +18,57 @@ import java.util.ArrayList;
 
 public class DrinkExpandableListViewActivity extends Activity {
 
-    private ArrayList<string> mGroupList=null;
-    private ArrayList<arraylist<string>> mChildList = null;
-    private ArrayList<string> mChildListContent=null;
+    private ArrayList<String> mGroupList=null;
+    private ArrayList<ArrayList<String>> mChildList = null;
+    private ArrayList<String> mChildListContent=null;
 
-    public void onCreate(Bundle savedInstanceState){
+    ExpandableListView mListView;
+
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
         setLayout();
 
-        mGroupList=new ArrayList<string>();
-        mChildList=new ArrayList<arraylist<string>>();
-        mChildListContent=new ArrayList<string>();
+        mGroupList = new ArrayList<String>();
+        mChildList = new ArrayList<ArrayList<String>>();
+        mChildListContent = new ArrayList<String>();
 
         mGroupList.add();
 
         mChildListContent.add();
 
-        mListView.setAdapter(new BaseExpandableListAdapter(this, mGroupList, mChildList));
 
-        mListView.setOnGroupClickListner(new ExpandableListView.OnGroupClickListener(){
-            public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id){
+        mListView.setAdapter(new BaseExpandableAdapter(this, mGroupList, mChildList));
+
+        mListView.setOnGroupClickListener(new OnGroupClickListener() {
+            public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
                 return false;
             }
         });
 
-        mListView.setOnChildClickListener(new onChildClickListner() {
+        mListView.setOnChildClickListener(new OnChildClickListener() {
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 return false;
             }
         });
 
-        mListView.setOnGroupCollapseListner(new OnGroupCollapseListner(){
-            public void onGroupCollapse(int groupPosition){
+        mListView.setOnGroupCollapseListener(new OnGroupCollapseListener() {
+            public void onGroupCollapse(int groupPosition) {
 
             }
         });
 
-        mListView.setOnGroupExpandLister(new OnGroupExpandListener(){
-            public void onGroupExpand(int groupPosition){
+        mListView.setOnGroupExpandListener(new OnGroupExpandListener() {
+            public void onGroupExpand(int groupPosition) {
 
             }
-        }
-    });
+        });
+    }
 
-    private ExpandableListView mListView;
+
 
     private void setLayout(){
-        mListView=(ExpandableListView) findVieByld(R.id.drink_list);
+        mListView=(ExpandableListView) findViewById(R.id.drink_list);
     }
 }

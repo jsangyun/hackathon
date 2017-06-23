@@ -66,7 +66,7 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
         if(v==null){
             viewHolder=new ViewHolder();
             v=inflater.inflate(R.layout.list_row, parent, false);
-            viewHolder.tv_group
+            viewHolder.tv_groupName=(TextView) v.findViewById(R.id.)
         }
     }
 
@@ -76,9 +76,9 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
         View v=convertView;
 
         if(v==null){
-            viewHolder=new ViewHoder();
-            v=inflater.inflate(R.layout.list_row, null);
-           viewHOlder.
+            viewHolder=new ViewHolder();
+            v=inflater.inflate(R.layout., null);
+           viewHolder.
 
         }
         return ;
