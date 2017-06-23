@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/RYAN/Desktop/new/hackathon/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Hackathon\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\JSY\\.android\\build-cache\\724c241e48faa2f42dd4ec5a2e3353f6614512df\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/RYAN/Desktop/new/hackathon/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Hackathon\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\JSY\\.android\\build-cache\\724c241e48faa2f42dd4ec5a2e3353f6614512df\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/RYAN/Desktop/new/hackathon/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+        "outputFile": "C:\\Hackathon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 117
                 },
                 "from": {
-                    "file": "/Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "file": "C:\\Users\\JSY\\.android\\build-cache\\724c241e48faa2f42dd4ec5a2e3353f6614512df\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

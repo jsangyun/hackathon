@@ -1,87 +1,91 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:3:5-40
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
 application
-ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/RYAN/.android/build-cache/ee8e9602597edf15aa1ac03fdc6da21c54afdca5/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/RYAN/.android/build-cache/39e9ebb8abbb3b8a3efe32d340383bed1914573d/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/RYAN/.android/build-cache/cbc9b6185d588f953d17e28b08af1b5d028c9bb6/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/RYAN/.android/build-cache/943a56b9d95ab9947fe699b9f814bf48abb5f811/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/RYAN/.android/build-cache/4e04a43ad1ff8310e5333c553d5ebc1c4776db02/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/RYAN/.android/build-cache/390572d79019e3358d242cff61ec16ec8589fc7a/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/RYAN/.android/build-cache/66b20346fca4201388ef237faa4639851c972628/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/RYAN/.android/build-cache/3e1d063027868c2fae7797df248aae18e3ff8d55/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/RYAN/.android/build-cache/95304602c3e20f8d331253c6be06f5d92430c329/output/AndroidManifest.xml:9:5-20
+ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JSY\.android\build-cache\724c241e48faa2f42dd4ec5a2e3353f6614512df\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\JSY\.android\build-cache\2b3d5e0ce0cb80fd3f47d09857e8db0c3d1e1478\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\JSY\.android\build-cache\d7ab943b5a6db76862e5971d07de5cf53b31db0e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\JSY\.android\build-cache\0d58dd76127510a1b38f31e97bf60061291a8a89\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\JSY\.android\build-cache\def6e9129c4fe15e920af13f44f21050760aaf1c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\JSY\.android\build-cache\31e33202e876620c89b28bf89ffb31c3317e712d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\JSY\.android\build-cache\a6d6ff3080f187ec21fd65c7c873edae0adce390\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\JSY\.android\build-cache\0de7a58e53c13721b1f8387e00a1566a29deb822\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\JSY\.android\build-cache\c860408cfe6013cedef246106291f2124c26446e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JSY\.android\build-cache\735981b72af613d0e5e47562d594f7c28617f38e\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:10:9-35
 	android:roundIcon
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:9:9-54
 	android:allowBackup
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:11:9-59
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:11:9-59
 activity#com.example.jsy.hackathon.MainActivity
-ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.jsy.hackathon.DrinkExpandableListViewActivity
+ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:19:9-78
+	android:name
+		ADDED from C:\Hackathon\app\src\main\AndroidManifest.xml:19:19-66
 uses-sdk
-INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] /Users/RYAN/.android/build-cache/ee8e9602597edf15aa1ac03fdc6da21c54afdca5/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/RYAN/.android/build-cache/39e9ebb8abbb3b8a3efe32d340383bed1914573d/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/RYAN/.android/build-cache/cbc9b6185d588f953d17e28b08af1b5d028c9bb6/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/RYAN/.android/build-cache/943a56b9d95ab9947fe699b9f814bf48abb5f811/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/RYAN/.android/build-cache/4e04a43ad1ff8310e5333c553d5ebc1c4776db02/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/RYAN/.android/build-cache/390572d79019e3358d242cff61ec16ec8589fc7a/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/RYAN/.android/build-cache/66b20346fca4201388ef237faa4639851c972628/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] /Users/RYAN/.android/build-cache/3e1d063027868c2fae7797df248aae18e3ff8d55/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/RYAN/.android/build-cache/95304602c3e20f8d331253c6be06f5d92430c329/output/AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JSY\.android\build-cache\724c241e48faa2f42dd4ec5a2e3353f6614512df\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\JSY\.android\build-cache\2b3d5e0ce0cb80fd3f47d09857e8db0c3d1e1478\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\JSY\.android\build-cache\d7ab943b5a6db76862e5971d07de5cf53b31db0e\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\JSY\.android\build-cache\0d58dd76127510a1b38f31e97bf60061291a8a89\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\JSY\.android\build-cache\def6e9129c4fe15e920af13f44f21050760aaf1c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\JSY\.android\build-cache\31e33202e876620c89b28bf89ffb31c3317e712d\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\JSY\.android\build-cache\a6d6ff3080f187ec21fd65c7c873edae0adce390\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\JSY\.android\build-cache\0de7a58e53c13721b1f8387e00a1566a29deb822\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\JSY\.android\build-cache\c860408cfe6013cedef246106291f2124c26446e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JSY\.android\build-cache\735981b72af613d0e5e47562d594f7c28617f38e\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JSY\.android\build-cache\724c241e48faa2f42dd4ec5a2e3353f6614512df\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/RYAN/Desktop/new/hackathon/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Hackathon\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/RYAN/.android/build-cache/ee8e9602597edf15aa1ac03fdc6da21c54afdca5/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/RYAN/.android/build-cache/39e9ebb8abbb3b8a3efe32d340383bed1914573d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/RYAN/.android/build-cache/cbc9b6185d588f953d17e28b08af1b5d028c9bb6/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/RYAN/.android/build-cache/943a56b9d95ab9947fe699b9f814bf48abb5f811/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/RYAN/.android/build-cache/4e04a43ad1ff8310e5333c553d5ebc1c4776db02/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/RYAN/.android/build-cache/390572d79019e3358d242cff61ec16ec8589fc7a/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/RYAN/.android/build-cache/66b20346fca4201388ef237faa4639851c972628/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/RYAN/.android/build-cache/3e1d063027868c2fae7797df248aae18e3ff8d55/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JSY\.android\build-cache\724c241e48faa2f42dd4ec5a2e3353f6614512df\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\JSY\.android\build-cache\2b3d5e0ce0cb80fd3f47d09857e8db0c3d1e1478\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\JSY\.android\build-cache\d7ab943b5a6db76862e5971d07de5cf53b31db0e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\JSY\.android\build-cache\0d58dd76127510a1b38f31e97bf60061291a8a89\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\JSY\.android\build-cache\def6e9129c4fe15e920af13f44f21050760aaf1c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\JSY\.android\build-cache\31e33202e876620c89b28bf89ffb31c3317e712d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\JSY\.android\build-cache\a6d6ff3080f187ec21fd65c7c873edae0adce390\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\JSY\.android\build-cache\0de7a58e53c13721b1f8387e00a1566a29deb822\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\JSY\.android\build-cache\c860408cfe6013cedef246106291f2124c26446e\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JSY\.android\build-cache\724c241e48faa2f42dd4ec5a2e3353f6614512df\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/RYAN/.android/build-cache/d5b6e619f73689c8f65dbfce42ee3b73e156fbe5/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JSY\.android\build-cache\724c241e48faa2f42dd4ec5a2e3353f6614512df\output\AndroidManifest.xml:26:9-47
