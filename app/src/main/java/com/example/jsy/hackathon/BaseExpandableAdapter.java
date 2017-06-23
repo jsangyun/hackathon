@@ -18,7 +18,7 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
 
     private ArrayList<String> groupList=null;
     private ArrayList<ArrayList<String>> childList=null;
-    private Layoutinflater inlater=null;
+    private LayoutInflater inflater=null;
     private ViewHolder viewHolder=null;
 
     public BaseExpandableAdapter(Context c, ArrayList<String> groupList, ArrayList<ArrayList<String>> childList){
@@ -28,13 +28,54 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
         this.childList=childList;
     }
 
-    public String getGroup(int groupPostion){
-        return groupList.get(groupPostion);
+    public String getGroup(int groupPosition){
+        return groupList.get(groupPosition);
+    }
+
+    @Override
+    public Object getChild(int groupPosition, int childPosition) {
+        return null;
     }
 
     public int getGroupCount(){
         return groupList.size();
     }
 
+    @Override
+    public int getChildrenCount(int groupPosition) {
+        return 0;
+    }
+
     public long getGroupId(int group)
+
+    @Override
+    public long getChildId(int groupPosition, int childPosition) {
+        return 0;
+    }
+
+    @Override
+    public boolean hasStableIds() {
+        return false;
+    }
+
+    @Override
+    public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
+        View v=convertView;
+
+        if(v==null){
+            viewHolder=new ViewHolder();
+            v=inflater.inflate(R.layout.list_row, parent, false);
+            viewHolder.tv_group
+        }
+    }
+
+    @Override
+    public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
+        return null;
+    }
+
+    @Override
+    public boolean isChildSelectable(int groupPosition, int childPosition) {
+        return false;
+    }
 }
