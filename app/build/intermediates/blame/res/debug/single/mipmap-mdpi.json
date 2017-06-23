@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/RYAN/Desktop/new/hackathon/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/RYAN/Desktop/new/hackathon/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/RYAN/Desktop/new/hackathon/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/RYAN/Desktop/new/hackathon/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]
