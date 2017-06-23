@@ -36,7 +36,7 @@ public class DrinkExpandableListViewActivity extends Activity {
 
         mGroupList.add();
 
-        mChildListContent.add();
+        mChildListContent.add("Wine");
 
 
         mListView.setAdapter(new BaseExpandableAdapter(this, mGroupList, mChildList));
