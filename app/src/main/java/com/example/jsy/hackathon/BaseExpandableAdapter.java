@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import arabiannight.tistroy.com.expandable.R;
 /**
  * Created by hoosp on 2017-06-23.
  */
@@ -43,19 +42,21 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return 0;
+        return childList.get(groupPosition).size();
     }
 
-    public long getGroupId(int group)
+    public long getGroupId(int groupPosition){
+        return groupPosition;
+    }
 
     @Override
     public long getChildId(int groupPosition, int childPosition) {
-        return 0;
+        return childPosition;
     }
 
     @Override
     public boolean hasStableIds() {
-        return false;
+        return true;
     }
 
     @Override
@@ -71,11 +72,26 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
 
     @Override
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
-        return null;
+
+        View v=convertView;
+
+        if(v==null){
+            viewHolder=new ViewHoder();
+            v=inflater.inflate(R.layout.list_row, null);
+           viewHOlder.
+
+        }
+        return ;
     }
 
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
-        return false;
+        return true;
+    }
+
+    class ViewHolder{
+        public ImageView iv_image;
+        public TextView tv_groupName;
+        public TextView tv_childName;
     }
 }
