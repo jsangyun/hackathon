@@ -65,7 +65,7 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
 
         if(v==null){
             viewHolder=new ViewHolder();
-            v=inflater.inflate(R.layout.list_row, parent, false);
+            v=inflater.inflate(R.layout., parent, false);
             viewHolder.tv_groupName=(TextView) v.findViewById(R.id.)
         }
     }
@@ -78,7 +78,8 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
         if(v==null){
             viewHolder=new ViewHolder();
             v=inflater.inflate(R.layout., null);
-           viewHolder.
+            viewHolder.drinkSubName=(TextView) v.findViewById(R.id.drinkname);
+            viewHolder.drinkDegree=(TextView) v.findViewById(R.id.)
 
         }
         return ;
@@ -90,8 +91,11 @@ public class BaseExpandableAdapter extends BaseExpandableListAdapter{
     }
 
     class ViewHolder{
-        public ImageView iv_image;
-        public TextView tv_groupName;
-        public TextView tv_childName;
+        public ImageView sumNail;
+        public ImageView drinkImage;
+        public TextView drinkName;
+        public TextView drinkSubName;
+        public TextView drinkDegree;
+        public TextView drinkSource;
     }
 }

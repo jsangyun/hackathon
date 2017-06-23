@@ -65,9 +65,7 @@ public class DrinkExpandableListViewActivity extends Activity {
         });
     }
 
-
-
     private void setLayout(){
-        mListView=(ExpandableListView) findViewById(R.id.drink_list);
+        mListView=(ExpandableListView) findViewById(R.id.);
     }
 }
