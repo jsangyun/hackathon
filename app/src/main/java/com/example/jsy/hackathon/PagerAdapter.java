@@ -16,13 +16,12 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
     @Override
     public Fragment getItem(int position) {
 //        return PageFragment.create(getCount());
-        switch (position){
+        switch (position) {
             case 0:
                 return new weatherfrag();
             case 1:
-                //return new selectfrag();
-            case 2:
-                return new third_flag();
+                return new selectfrag();
+
             default:
                 return null;
         }
