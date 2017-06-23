@@ -57,7 +57,7 @@ public class DrinkExpandableListViewActivity extends Activity {
 
             }
         }
-    })
+    });
 
     private ExpandableListView mListView;
 
