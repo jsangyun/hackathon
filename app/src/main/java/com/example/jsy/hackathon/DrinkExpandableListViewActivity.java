@@ -34,16 +34,34 @@ public class DrinkExpandableListViewActivity extends Activity {
 
         mListView.setAdapter(new BaseExpandableListAdapter(this, mGroupList, mChildList));
 
-        mListView.setOnGroupClickListner(new ExpandableListView.OnGroupClickListener()){
+        mListView.setOnGroupClickListner(new ExpandableListView.OnGroupClickListener(){
             public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id){
-                Toast.makeText(getApplicationContext(), "");
-
                 return false;
             }
-        }
+        });
 
-        mListView.setOnClickListener();
-    }
+        mListView.setOnChildClickListener(new onChildClickListner() {
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+                return false;
+            }
+        });
+
+        mListView.setOnGroupCollapseListner(new OnGroupCollapseListner(){
+            public void onGroupCollapse(int groupPosition){
+
+            }
+        });
+
+        mListView.setOnGroupExpandLister(new OnGroupExpandListener(){
+            public void onGroupExpand(int groupPosition){
+
+            }
+        }
+    });
 
     private ExpandableListView mListView;
+
+    private void setLayout(){
+        mListView=(ExpandableListView) findVieByld(R.id.drink_list);
+    }
 }
